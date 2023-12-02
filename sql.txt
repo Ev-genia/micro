@@ -1,0 +1,16 @@
+CREATE DATABASE microgreens;
+
+USE microgreens;
+
+CREATE TABLE products(
+    product_id INT PRIMARY KEY AUTO_INCREMENT, 
+    product_name VARCHAR(30),
+    product_price INT
+);
+
+INSERT INTO microgreens.products(product_name, product_price)
+VALUES ('Редис', 100);
+INSERT INTO microgreens.products(product_name, product_price)
+VALUES ('Амарант', 120);
+INSERT INTO microgreens.products(product_name, product_price)
+VALUES ('Брокколи', 110);

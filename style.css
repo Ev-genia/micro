@@ -1,0 +1,38 @@
+body {
+  color: black;
+  background: rgb(203, 245, 203);
+}
+
+header {
+  background: rgb(153, 230, 153);
+  height: 100px;
+  width: 100%;
+}
+
+
+.header1 {
+  color: grey;
+}
+
+footer {
+  background: rgb(171, 205, 171);
+  height: 80px;
+  width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  border: 3px solid rgb(101, 149, 101);
+}
+
+tr {
+  border: 3px solid rgb(101, 149, 101);
+}
+
+td {
+  border: 3px solid rgb(101, 149, 101);
+}
+
+th {
+  border: 3px solid rgb(101, 149, 101);
+}
